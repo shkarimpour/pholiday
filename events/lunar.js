@@ -1,0 +1,18 @@
+module.exports = [
+    {'day': 58, 'title': 'شهادت حضرت فاطمه', 'holiday': true},
+    {'day': 75, 'title': 'ولادت حضرت فاطمه و روز زن', 'holiday': false},
+    {'day': 98, 'title': 'ولادت امام علی', 'holiday': true},
+    {'day': 112, 'title': 'مبعث حضرت رسول اکرم', 'holiday': true},
+    {'day': 129, 'title': 'ولادت حضرت قائم', 'holiday': true},
+    {'day': 164, 'title': 'شهادت حضرت علی', 'holiday': true},
+    {'day': 174, 'title': 'عید فطر', 'holiday': true},
+    {'day': 198, 'title': 'شهادت اما جعفر صادق', 'holiday': true},
+    {'day': 242, 'title': 'عید قربان', 'holiday': true},
+    {'day': 250, 'title': 'عید غدیر خم', 'holiday': true},
+    {'day': 270, 'title': 'تاسوعای حسینی', 'holiday': true},
+    {'day': 271, 'title': 'عاشورای حسینی', 'holiday': true},
+    {'day': 311, 'title': 'اربعین حسینی', 'holiday': true},
+    {'day': 319, 'title': 'رحلت حضرت رسول اکرم و شهادت امام حسن مجتبی', 'holiday': true},
+    {'day': 321, 'title': 'شهادت امام رضا', 'holiday': true},
+    {'day': 338, 'title': 'میلاد حضرت رسول اکرم و اما جعفر صادق', 'holiday': true},
+]

@@ -1,0 +1,16 @@
+module.exports = [
+    {'day': 1, 'title': 'عید نوروز', 'holiday': true},
+    {'day': 2, 'title': 'عید نوروز', 'holiday': true},
+    {'day': 3, 'title': 'عید نوروز', 'holiday': true},
+    {'day': 4, 'title': 'عید نوروز', 'holiday': true},
+    {'day': 12, 'title': 'روز جمهوری اسلامی', 'holiday': true},
+    {'day': 13, 'title': 'روز طبیعت', 'holiday': true},
+    {'day': 76, 'title': 'رحلت امام خمینی', 'holiday': true},
+    {'day': 77, 'title': 'قیام خونین ۱۵ خرداد', 'holiday': true},
+    {'day': 100, 'title': 'شهادت دکتر بهشتی', 'holiday': false},
+    {'day': 132, 'title': 'روز مبارزه با تروریسم', 'holiday': false},
+    {'day': 135, 'title': 'روز صنعت چاپ', 'holiday': false},
+    {'day': 276, 'title': 'شب یلدا', 'holiday': false},
+    {'day': 328, 'title': 'پیروزی انقلاب اسلامی', 'holiday': true},
+    {'day': 365, 'title': 'روز ملی شدن صنعت نفت', 'holiday': true},
+]
