@@ -1,0 +1,5 @@
+const pholiday = require('./index')
+const date = pholiday().add(4, 'days')
+const momentHijri = require('moment-hijri')
+console.log(date.isHoliday())
+console.log(date.events())
