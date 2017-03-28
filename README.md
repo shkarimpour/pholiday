@@ -21,5 +21,5 @@ pholiday().isHoliday()
 Get the selected dates events in Iran calendar.
 ```
 const pholiday = require('pholiday')
-pholiday().isHoliday()
+pholiday().events()
 ```
