@@ -15,6 +15,8 @@ Check the selected date is holiday in Iran or not.
 ```
 const pholiday = require('pholiday')
 pholiday().isHoliday()
+pholiday('1391/12/29', 'jYYYY/jMM/jDD').isHoliday() -> true
+pholiday('2013-8-25 16:40:00', 'YYYY-M-D HH:mm:ss').endOf('jMonth').isHoliday() -> false
 ```
 
 ## .events()
@@ -22,4 +24,7 @@ Get the selected dates events in Iran calendar.
 ```
 const pholiday = require('pholiday')
 pholiday().events()
+pholiday('2013-8-25 16:40:00', 'YYYY-M-D HH:mm:ss').endOf('jMonth').events()
+-> [ { isHoliday: false,
+    event: 'گاهنبار پَتیَه‌شَهیم، جشن پایان تابستان' } ]
 ```
