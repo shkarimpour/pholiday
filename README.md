@@ -2,6 +2,7 @@
 A persian calendar holidays library for **javascript** based on [**moment-jalaali**](https://github.com/jalaali/moment-jalaali).
 
 # installation
+You can use this library in envs like nodejs, webpack and browserify.
 ```
 $ npm install pholiday
 ```
