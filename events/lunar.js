@@ -3,7 +3,7 @@ module.exports = [
     {'fday':'7/3', 'title': 'شهادت امام علی النقی الهادی علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'7/10', 'title': 'ولادت امام محمد تقی علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'7/13', 'title': 'ولادت امام علی علیه السلام و روز پدر', 'holiday': true, isLunar: true},
-    {'fday':'7/15', 'title': 'وفات حضرت زینب سلام الله علیها', 'holiday': false, isLunar: true},
+    {'fday':'7/16', 'title': 'وفات حضرت زینب سلام الله علیها', 'holiday': false, isLunar: true},
     {'fday':'7/25', 'title': 'شهادت امام موسی کاظم علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'7/27', 'title': 'مبعث رسول اکرم', 'holiday': true, isLunar: true},
     {'fday':'8/3', 'title': 'ولادت سالار شهیدان، امام حسین علیه السلام', 'holiday': false, isLunar: true},
