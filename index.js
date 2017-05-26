@@ -2,6 +2,8 @@ const persian = require('./events/persian')
 const lunar = require('./events/lunar')
 const solar = require('./events/solar')
 const momentJalaali = require('moment-jalaali')
+momentJalaali.locale('fa')
+momentJalaali.loadPersian()
 const momentHijri = require('moment-hijri')
 const _allsolar = persian.concat(solar)
 const _lunar2solar = lunar
@@ -11,9 +13,10 @@ function PHoliday(arg1, arg2, arg3, arg4){
     const _self = momentJalaali(arg1, arg2, arg3, arg4)
     _self.events = function(){
         const _todayNumber = _self.jDayOfYear()
-        const _todayHijri = momentHijri(_self)
+        const _todayHijri = momentHijri(_self).subtract(1, 'day')
         const _todayHijriFormatted = _todayHijri.format('iM/iD')
-        return _allevents.filter(function(item){
+
+        const events = _allevents.filter(function(item){
             return (item.fday && item.fday == _todayHijriFormatted) || (!item.fday && item.day == _todayNumber)
         }).map(function(item){
             return {
@@ -21,8 +24,13 @@ function PHoliday(arg1, arg2, arg3, arg4){
                 event: item.title
             }
         })
+        return _self.isoWeekday() == 5 ? events.concat([{
+          isHoliday: true,
+          isFriday: true,
+          event: 'جمعه'
+        }]) : events
     }
-    
+
     _self.isHoliday = function(){
         return _self.events().find(function(item){
             return item.isHoliday
