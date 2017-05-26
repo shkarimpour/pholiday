@@ -1,6 +1,6 @@
 {
   "name": "pholiday",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "a persian calendar holidays library for javascript",
   "main": "index.js",
   "scripts": {
