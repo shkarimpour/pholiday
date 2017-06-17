@@ -13,7 +13,7 @@ function PHoliday(arg1, arg2, arg3, arg4){
     const _self = momentJalaali(arg1, arg2, arg3, arg4)
     _self.events = function(){
         const _todayNumber = _self.jDayOfYear()
-        const _todayHijri = momentHijri(_self).subtract(1, 'day')
+        const _todayHijri = momentHijri(_self)
         const _todayHijriFormatted = _todayHijri.format('iM/iD')
 
         const events = _allevents.filter(function(item){
