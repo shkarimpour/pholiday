@@ -46,21 +46,4 @@ module.exports = [
     {'fday':'6/4', 'title': 'شهادت حضرت فاطمه زهرا سلام الله علیها', 'holiday': true, isLunar: true},//bugs
     {'fday':'6/21', 'title': 'ولادت حضرت فاطمه زهرا سلام الله علیها و روز زن', 'holiday': false, isLunar: true},//bugs
     {'fday':'6/30', 'title': 'ولادت امام محمد باقر علیه السلام', 'holiday': false, isLunar: true},
-
-
-    // {'day': 75, 'title': 'ولادت حضرت فاطمه و روز زن', 'holiday': false, isLunar: true},
-    // {'day': 98, 'title': 'ولادت امام علی', 'holiday': true, isLunar: true},
-    // {'day': 112, 'title': 'مبعث حضرت رسول اکرم', 'holiday': true, isLunar: true},
-    // {'day': 129, 'title': 'ولادت حضرت قائم', 'holiday': true, isLunar: true},
-    // {'day': 164, 'title': 'شهادت حضرت علی', 'holiday': true, isLunar: true},
-    // {'day': 174, 'title': 'عید فطر', 'holiday': true, isLunar: true},
-    // {'day': 198, 'title': 'شهادت اما جعفر صادق', 'holiday': true, isLunar: true},
-    // {'day': 242, 'title': 'عید قربان', 'holiday': true, isLunar: true},
-    // {'day': 250, 'title': 'عید غدیر خم', 'holiday': true, isLunar: true},
-    // {'day': 270, 'title': 'تاسوعای حسینی', 'holiday': true, isLunar: true},
-    // {'day': 271, 'title': 'عاشورای حسینی', 'holiday': true, isLunar: true},
-    // {'day': 311, 'title': 'اربعین حسینی', 'holiday': true, isLunar: true},
-    // {'day': 319, 'title': 'رحلت حضرت رسول اکرم و شهادت امام حسن مجتبی', 'holiday': true, isLunar: true},
-    // {'day': 321, 'title': 'شهادت امام رضا', 'holiday': true, isLunar: true},
-    // {'day': 338, 'title': 'میلاد حضرت رسول اکرم و اما جعفر صادق', 'holiday': true, isLunar: true},
 ]
