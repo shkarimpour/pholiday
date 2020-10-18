@@ -3,7 +3,7 @@ const lunar = require('./events/lunar')
 const solar = require('./events/solar')
 const momentJalaali = require('moment-jalaali')
 momentJalaali.locale('fa')
-momentJalaali.loadPersian()
+momentJalaali.loadPersian({ usePersianDigits: false })
 const momentHijri = require('moment-hijri')
 const _allsolar = persian.concat(solar)
 const _lunar2solar = lunar
