@@ -1,6 +1,6 @@
 {
   "name": "pholiday",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "a persian calendar holidays library for javascript",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/shkarimpour/pholiday#readme",
   "dependencies": {
-    "moment-hijri": "^2.0.1",
-    "moment-jalaali": "^0.6.1"
+    "moment-hijri": "^2.1.2",
+    "moment-jalaali": "^0.9.2"
   }
 }
