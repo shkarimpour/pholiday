@@ -10,7 +10,7 @@ module.exports = [
     {'fday':'8/4', 'title': 'ولادت ابوالفضل العباس علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'8/5', 'title': 'ولادت امام زین العابدین علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'8/11', 'title': 'ولادت علی اکبر علیه السلام و روز جوان', 'holiday': false, isLunar: true},
-    {'fday':'8/15', 'title': 'ولادت حضرت قائم عجل الله تعالی فرجه و جشن نیمه شعبان', 'holiday': false, isLunar: true},
+    {'fday':'8/15', 'title': 'ولادت حضرت قائم عجل الله تعالی فرجه و جشن نیمه شعبان', 'holiday': true, isLunar: true},
     {'fday':'9/15', 'title': 'ولادت امام حسن مجتبی علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'9/18', 'title': 'شب قدر', 'holiday': false, isLunar: true},
     {'fday':'9/19', 'title': 'ضربت خوردن حضرت علی علیه السلام', 'holiday': false, isLunar: true},
@@ -38,12 +38,12 @@ module.exports = [
     {'fday':'2/28', 'title': 'رحلت رسول اکرم؛شهادت امام حسن مجتبی علیه السلام', 'holiday': false, isLunar: true},
     {'fday':'2/30', 'title': 'شهادت امام رضا علیه السلام', 'holiday': true, isLunar: true},
     {'fday':'3/1', 'title': 'هجرت پیامبر اکرم از مکه به مدینه', 'holiday': false, isLunar: true},
-    {'fday':'3/9', 'title': 'شهادت امام حسن عسکری علیه السلام', 'holiday': true, isLunar: true},//bugs
+    {'fday':'3/8', 'title': 'شهادت امام حسن عسکری علیه السلام', 'holiday': true, isLunar: true},//bugs
     {'fday':'3/13', 'title': 'میلاد رسول اکرم به روایت اهل سنت', 'holiday': false, isLunar: true},//bugs
-    {'fday':'3/18', 'title': 'میلاد رسول اکرم و امام جعفر صادق علیه السلام', 'holiday': true, isLunar: true},//bugs
+    {'fday':'3/17', 'title': 'میلاد رسول اکرم و امام جعفر صادق علیه السلام', 'holiday': true, isLunar: true},//bugs
     {'fday':'4/11', 'title': 'وفات حضرت معصومه سلام الله علیها', 'holiday': false, isLunar: true},//bugs
     {'fday':'5/6', 'title': 'ولادت حضرت زینب سلام الله علیها و روز پرستار و بهورز', 'holiday': false, isLunar: true},//bugs
-    {'fday':'6/4', 'title': 'شهادت حضرت فاطمه زهرا سلام الله علیها', 'holiday': true, isLunar: true},//bugs
+    {'fday':'6/3', 'title': 'شهادت حضرت فاطمه زهرا سلام الله علیها', 'holiday': true, isLunar: true},//bugs
     {'fday':'6/21', 'title': 'ولادت حضرت فاطمه زهرا سلام الله علیها و روز زن', 'holiday': false, isLunar: true},//bugs
     {'fday':'6/30', 'title': 'ولادت امام محمد باقر علیه السلام', 'holiday': false, isLunar: true},
 ]
